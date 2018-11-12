@@ -1,0 +1,123 @@
+@font-face {
+    font-family: fontOgro;
+    src: url('fontes/Creepster/Creepster-Regular.ttf');
+}
+
+@font-face {
+    font-family: fontLetter;
+    src: url('fontes/Homemade_Apple/HomemadeApple-Regular.ttf');
+}
+
+body {
+    background-color: #a82828;
+}
+
+.mainFrame {
+    width: 70%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffde52;
+    padding: 0px 25px 25px 25px;
+    border: 10px outset #e2ba13;
+}
+
+h1, h2, h3, h4, p, li, a{
+    font-family: Georgia;
+}
+.textStory {
+    padding: 5px 20px;
+    background-image: url(imagens/ivory-off-white-paper-texture.jpg);
+    box-shadow: 2px 2px 8px #77692d;
+    margin: 25px 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p{
+    text-indent: 20px;
+    font-style: normal;
+}
+
+.options li, a {
+    font-weight: 600;
+    margin: 7px 0px;
+    color:#9d0000 ;
+}
+
+.options {
+    background-color:#d1b53b;
+    border: inset #e2ba13 10px;
+}
+
+.ogro {
+    font-family: fontOgro;
+    color: darkgreen;
+    text-align: center;
+}
+
+.perigo {
+    color: yellow;
+    background-color: red;
+    width:200px;
+    display: block;
+    margin: auto;
+}
+
+.carta {
+    font-family: fontLetter;
+}
+
+img {
+    box-shadow: 8px 8px 12px #77692d;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.button  {
+    display: inline-block;
+    justify-content: center;
+    width: 150px;
+    margin: 20px 20px;
+    text-decoration: none;
+    font-family:monospace;
+    padding: 10px;
+    font-size: 20px;
+    color: #a84f4f;
+    text-shadow:-1px -1px #580e0e, -2px -2px #400e0e;
+    background-color:brown;
+    border:5px #bf3e3e outset;
+    
+    
+}
+
+.responsive {
+    width:100%;
+    height: auto;
+}
+
+.centerContent {
+    text-align: center;
+}
+
+.blood {
+    color: red;
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.69)
+}
+
+.victory {
+    font-size: 25px;
+    color: #00b1ff;
+    text-shadow: 2px 2px 5px;
+}
+
+.victory-bg {
+    background-color: #10ffb5;
+}
+
+.defeat-bg {
+    background-color: #2e0000;
+}
